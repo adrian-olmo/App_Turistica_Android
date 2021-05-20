@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mapas"
+        android:title="Mapa"
+        android:icon="@drawable/vermapas"/>
+
+    <item android:id="@+id/lugares"
+        android:title="Lugares"
+        android:icon="@drawable/lugar"/>
+
+    <item android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/charla"/>
+
+    <item android:id="@+id/perfilusuario"
+        android:title="Perfil"
+        android:icon="@drawable/usuario"/>
+
+</menu>

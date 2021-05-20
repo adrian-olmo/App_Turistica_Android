@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"  android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="420dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/iconoapp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/txtcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo Electronico"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#ccc"
+            android:background="@drawable/cuadros_texto"
+            android:padding="10dp"
+            android:textColor="@color/blanco"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/txtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColorHint="#ccc"
+            android:background="@drawable/cuadros_texto"
+            android:padding="10dp"
+            android:textColor="@color/blanco"
+            android:inputType="textPassword"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnInicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="Iniciar Sesion"
+                android:elevation="15dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="16dp"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/google"
+                    android:background="#d8000000"
+                    android:id="@+id/btninicioGoogle"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/adduser"
+                    android:background="#d8000000"
+                    android:layout_marginLeft="50dp"
+                    android:id="@+id/btnRegistrar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "917932034533",
+    "firebase_url": "https://app-turistica-android.firebaseio.com",
+    "project_id": "app-turistica-android",
+    "storage_bucket": "app-turistica-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917932034533:android:1715976f01ae6c177c870c",
+        "android_client_info": {
+          "package_name": "com.example.app_turistica_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917932034533-vofg5043d63nri3un2qv0dhbkdkp0tm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_turistica_android",
+            "certificate_hash": "5ef2804f72215ae38ba94d4bb4060d8e69ac3d2e"
+          }
+        },
+        {
+          "client_id": "917932034533-ukqnktq7almdg9hlimokel4hepm2g9tu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_turistica_android",
+            "certificate_hash": "c85b5207fa221b7832ddd0799b17f9e39e48671f"
+          }
+        },
+        {
+          "client_id": "917932034533-oei1dihbvna8mpfeqffl0o7d1b1qvg1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx78JfSKhGrpFTj5krMkZ1eQBQ8EAVYW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917932034533-oei1dihbvna8mpfeqffl0o7d1b1qvg1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/museos"
+        android:title="Museos"
+        android:drawableLeft="@drawable/lugar"/>
+
+    <item android:id="@+id/parques"
+        android:title="Parques"/>
+
+    <item android:id="@+id/lugaresOcio"
+        android:title="Lugares de Ocio"
+        />
+
+    <item android:id="@+id/lugaresInteres"
+        android:title="Lugares de interés"/>
+
+    <item android:id="@+id/todos"
+        android:title="Todos los lugares"/>
+</menu>

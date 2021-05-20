@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="220dp"
+        android:layout_margin="30dp"
+        android:layout_weight="0.8"
+        android:src="@drawable/recommendexp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cualquier lugar que visite podrás marcarlo como favorito, y además podras escribir reseñas de las distintas ubicaciones
+que hayas visitado."
+        android:layout_weight="0.2"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|center_horizontal"/>
+
+</LinearLayout>

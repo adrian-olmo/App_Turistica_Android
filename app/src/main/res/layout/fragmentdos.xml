@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="283dp"
+        android:layout_height="276dp"
+        android:layout_margin="30dp"
+        android:layout_weight="0.8"
+        android:src="@drawable/map"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="
+Tendras al alcance de la mano cualquier lugar de interes turistico o gastronómico."
+        android:layout_weight="0.2"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|center_horizontal"/>
+
+</LinearLayout>
